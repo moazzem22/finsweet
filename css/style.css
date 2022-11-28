@@ -1,0 +1,739 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1280px;
+    margin: 0px auto;
+}
+nav{
+    background: #1C1E53;
+    padding: 32px 0;
+}
+
+.box{
+    display: flex;
+}
+.title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+}
+.title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    width: 405px;
+    margin-top: 16px;
+}
+.title .titlebtn{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.title .titlebtn i{
+    margin-left: 16px;
+}
+nav .logo{
+    width: 20%;
+    align-self: center;
+}
+.navitem{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 48px;
+}
+nav ul{
+    display: flex;
+    column-gap: 32px;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul li{
+    transition: .4s;
+}
+nav ul li:hover {
+    color: #FFFFFF;
+}
+nav a{
+    font-family: 'Poppins', sans-serif;;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255,.2);
+    padding: 16px 48px;
+    border-radius: 41px;
+    transition: .4s;
+}
+nav a:hover{
+    background: #FFFFFF;
+    color: #1C1E53;
+}
+/* ===========================
+banner start
+============================== */
+.banner{
+    background: #1C1E53;
+    padding: 128px 0;
+}
+.banner .left{
+    width: 50%;
+}
+.banner .left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 74px;
+}
+.banner .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 28px;
+    width: 562px;
+    margin-top: 28px;
+    margin-bottom: 64px;
+}
+.banner .left a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 48px;
+    border-radius: 41px;
+    margin-top: 48px;
+}
+.banner .left .workbtn{
+    background: #FCD980;
+    color: #1B1C2B;
+}
+.banner .left .pricebtn{
+    color: #FFFFFF;
+}
+.banner .left .pricebtn i{
+    margin-left: 16px;
+}
+.banner .right{
+    width: 50%;   
+}
+
+/* ===========================
+banner end
+============================== */
+/* ===========================
+   work Start
+============================== */
+.work{
+    background: #F4F6FC; 
+    padding: 128px 0;
+}
+.work .left{
+    width: 50%;
+}
+.work .right{
+    width: 50%;
+}
+.work .right .box .item{
+    width: 50%;
+    margin-bottom: 57px;
+}
+.work .right .box .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.work .right .box .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #1B1C2B;
+    width: 303px;
+}
+.work .right .box{
+    flex-wrap: wrap;
+}
+/* ===========================
+   work End
+============================== */
+/* ===========================
+   project start
+============================== */
+.project{
+    margin: 128px 0;
+}
+.project img{
+    width: 100%;
+    display: block;
+}
+.project .box{
+    justify-content: space-between;
+}
+.project .title a{
+    color: #282938;
+}
+.project .title{
+    margin-bottom: 64px;
+}
+.project .leftimg{
+    width: 843px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.project .leftimg .overlay{
+    background: 
+    linear-gradient(rgba(28, 30, 83, 0.42),#1C1E53);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: -50%;
+    top: 0px; 
+    transition: .4s;
+    display: flex;
+    align-items: flex-end;
+}
+.project .leftimg:hover .overlay{
+    left: 0px;
+}
+.project .leftimg .overlay .text{
+width: 100%;
+height: 50%;
+padding: 0 48px;
+}
+.project .leftimg .overlay .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 313px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.project .leftimg .overlay .text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 293px;
+    color: rgba(255, 255, 255,.8);
+}
+.project .leftimg .overlay .text .titlebtn{
+    color: #FCD980;
+}
+.project .leftimg .overlay .text .titlebtn i{
+    margin-left: 16px;
+    margin-top: 40px;
+}
+.project .rightimg{
+    width: 405px;
+}
+.project .rightimg .imagebox {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 38px;
+}
+.project .rightimg .imagebox:hover .overlay{
+    top: 0;
+}
+.project .rightimg .imagebox .overlay{
+    background: 
+    linear-gradient(rgba(28, 30, 83, 0.42),#1C1E53);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: -100%;
+    transition: .4s;
+}
+.project .rightimg .overlay .text{
+    width: 100%;
+    height: 100%;
+    padding: 0 48px;
+}
+.project .rightimg .overlay .text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    width: 292px;
+    color: #FFFFFF;
+    margin-top: 129px;
+}
+.project .rightimg .overlay .text a{
+color: #FCD980;
+}
+.project .rightimg .overlay .text .titlebtn i{
+    margin-left: 16px;
+    margin-top: 10px;
+}
+/* ===================
+  project end
+==============================  */
+/* ===================
+  sevice start
+==============================  */
+.service{
+    background: #F4F6FC;
+    padding: 128px;
+}
+.service .title{
+    text-align: center;
+}
+.service .title p,h2{
+    margin: 0 auto;
+}
+.service .title h2{
+    width: 630px;
+    line-height: 64px;
+}
+.service .box{
+flex-wrap: wrap;
+justify-content: space-between;
+row-gap: 24px;
+margin-top: 46px;
+}
+.service .item{
+    width: 32%;
+    background: #FFFFFF;
+    padding: 58px 48px;
+    box-sizing: border-box;
+}
+.service .item i{
+    color: #2405F2;
+    font-size: 32px;
+}
+.service .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+.service .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 324px;
+}
+/* ===================
+  sevice end
+==============================  */
+/* ===================
+  client start
+==============================  */
+.client .mt{
+    margin-top: 128px;
+}
+.client .box .left{
+    width: 30%;
+}
+.client .box .right{
+    width: 70%;
+}
+.client .box .left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.client .box .left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+.client .box .right h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.client .imcbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.client .imcbox .leftitem{
+    width: 50%;
+    position: relative;
+    padding-left: 64px;
+    padding-top: 10px;
+}
+.client .imcbox .leftitem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.client .imcbox .righttitem{
+    width: 50%;
+    text-align: right;
+}
+.client .imcbox .righttitem i{
+    width: 48px;
+    height: 48px;
+    background: #fafafa;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    transition: .4s;
+}
+.client .imcbox .righttitem i:hover{
+    background: #2405F2;
+    color: #fafafa;
+}
+/* ===================
+  client end
+==============================  */
+/* ===================
+FAQ start
+==============================  */
+.faq .box{
+    margin: 128PX 0;
+}
+.faq .box .left{
+    width: 30%;
+}
+.faq .box .left H2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+.faq .box .left a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.faq .box .right{
+    width: 70%;
+}
+.faq .box .right .holder{
+    border-bottom: 1px solid #ECECF1;
+}
+.faq .box .right .holder h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    position: relative;
+}
+.faq .box .right .holder h2 span{
+    color: #2405F2;
+    margin-right: 59px;
+}
+.faq .box .right .holder h2 i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+.faq .box .right .holder p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 624px;
+    line-height: 32px;
+    margin-left: 88px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+.faq .box .right .holder h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    position: relative;
+    margin: 32px 0;
+}
+.faq .box .right .holder h4 span{
+    color: #2405F2;
+    margin-right: 59px;
+}
+.faq .box .right .holder h4 i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+/* ===================
+FAQ end
+============================== */
+/* ===================
+inquery start
+============================== */
+.inquery .box{
+    margin-bottom: 128px;
+}
+.inquery .box .left{
+    width: 50%;
+    background: url(../images/inquiry.png);
+}
+.inquery .box .left .overlay{
+    width: 100%;
+    background: rgba(4, 1, 33,.5);
+}
+.inquery .box .left .overlay h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    width: 464px;
+    padding: 96px 96px 24px 96px;
+}
+.inquery .box .left .overlay p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width: 464px;
+    color: #FFFFFF;
+    padding: 0px 96px 261px 96px;
+    }
+.inquery .right{
+    width: 50%;
+    background: #1C1E53;
+}
+.inquery .right h2{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding: 96px 96px 16px 96px;
+}
+.inquery .right p{
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+width: 432px;
+color: #F4F6FC;
+padding: 0px 96px 24px 96px;
+}
+.inquery .right form{
+    margin-left: 96px;
+}
+.inquery .right input{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255,.5);
+    padding: 18px 32px;
+    border-radius: 8px;
+    width: 432px;
+    margin-top: 16px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+.inquery .right input::placeholder{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: rgba(255, 255, 255,.5);
+}
+.inquery .right button{
+    width: 432px;
+    margin-top: 39px;
+    padding: 16px 0;
+    background: #FCD980;
+    border-radius: 41px;
+    margin-bottom: 28px;
+}
+.inquery .right a{
+    color: #FFFFFF;
+}
+.inquery .right .fbutton{
+    width: 432px;
+    text-align: center;
+}
+.inquery .right .titlebtn i{
+    margin-left: 10px;
+}
+/* ===================
+inquery end
+============================== */
+/* ===================
+blog start
+============================== */
+.blog{
+    margin-bottom: 128px;
+}
+.blog h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.blog .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.blog .box p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #282938;
+    width: 405px;
+}
+.blog .box h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    width: 405px;
+    margin-top: 16px;
+}
+.blog .box .item a{
+    color: #282938;
+}
+.blog .box .item i{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+/* ===================
+blog end
+============================== */
+/* ===================
+contact start
+============================== */
+.contact{
+    background: #1C1E53;
+    padding-top: 100px;
+}
+.contact .box .left{
+    width: 50%;
+}
+.contact .box .left p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 399px;
+    color: #F4F6FC;
+    margin-top: 22px;
+}
+.contact .box .left .mail_phone{
+    display: flex;
+    background: #FCD980;
+    margin-top: 86px;
+    padding: 17px 37px;
+    width: 60%;
+
+}
+.contact .box .left .mail_phone .email h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+.contact .box .left .mail_phone .email p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F6FC;
+}
+.contact .box .left .mail_phone .call{
+    margin-left: 29px;
+}
+.contact .box .left .mail_phone .call h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1px;
+}
+.contact .box .left .mail_phone .call p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F6FC;
+}
+.contact .box .right{
+    width: 50%;
+}
+.contact .box .right h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.contact .box .right p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 399px;
+    color: #F4F6FC;
+    margin-top: 14px;
+}
+.contact .box .right .icon{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-top: 28px;
+}
+.contact .box .right .icon i{
+    color: #FFFFFF;
+}
+/* ===================
+contact end
+============================== */
+/* ===================
+Footer start
+============================== */
+footer .fbox{
+    display: flex;
+    width: 100%;
+    padding: 32px 0;
+}
+footer .fbox .copyright{
+    width: 60%;
+}
+footer .fbox .copyright p{
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+footer .fbox .footeritem{
+    width: 40%;
+}
+footer .fbox .footeritem ul{
+    display: flex;
+    justify-content: space-between;
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* ===================
+Footer end
+============================== */
